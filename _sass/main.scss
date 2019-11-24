@@ -85,14 +85,26 @@ body {
   background-size: 100% auto;
 }
 
+@media only screen and (min-width: 1024px) {
+  .img-whiteboard {
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-whiteboard {
+    background-position: center ;
+    background-attachment: initial;
+  }
+}
+
 .img-whiteboard {
   color: #000;
   background-color:#000;
   background-image: url('/assets/img/whiteboard.jpg');
   background-repeat: no-repeat;
   background-size: auto auto;
-  background-position: bottom;
-  background-attachment: fixed;
 }
 
 .img-trees {
@@ -170,7 +182,7 @@ body {
   display:flex;
 
   h1 {
-    background-color:#fff;
+    background-color: rgba(255,255,255,0.8);
     display:inline;
     font-size:45pt;
     font-weight:normal;
