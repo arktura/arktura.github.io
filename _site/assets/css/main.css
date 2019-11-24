@@ -70,11 +70,9 @@ body {
     background-attachment: fixed; } }
 @media only screen and (max-width: 1024px) {
   .img-whiteboard {
-    background-position: center;
-    background-attachment: initial; } }
+    background-position: center; } }
 .img-whiteboard {
   color: #000;
-  background-color: #000;
   background-image: url("/assets/img/whiteboard.jpg");
   background-repeat: no-repeat;
   background-size: auto auto; }
