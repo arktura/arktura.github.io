@@ -186,7 +186,13 @@ body {
 @media only screen and (max-width: 1024px) {
 .col-1 {
   display:none
-}}
+}
+
+  .col-2 {
+    width:100%;
+  }
+
+}
 
 .col-2 {
   width:70%;

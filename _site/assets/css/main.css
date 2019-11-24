@@ -143,7 +143,10 @@ body {
     max-width: 200px; } }
 @media only screen and (max-width: 1024px) {
   .col-1 {
-    display: none; } }
+    display: none; }
+
+  .col-2 {
+    width: 100%; } }
 .col-2 {
   width: 70%;
   padding: 0 4%; }
