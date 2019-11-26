@@ -38,10 +38,12 @@ body {
   .top .navigation {
     font-size: 14pt;
     justify-content: space-between;
-    display: inline-flex; }
+    display: inline-flex;
+    max-width: 500px;
+    width: 100%; }
     .top .navigation nav {
       display: flex;
-      margin: 55px 40px 25px 0;
+      margin: 55px 0px 25px 0;
       justify-content: center; }
 
 .aquamarine {
@@ -66,16 +68,17 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .img-whiteboard {
-    background-position: bottom;
+    background-size: 100% auto;
+    background-position: left center;
     background-attachment: fixed; } }
 @media only screen and (max-width: 1024px) {
   .img-whiteboard {
+    background-size: auto auto;
     background-position: center; } }
 .img-whiteboard {
   color: #000;
   background-image: url("/assets/img/whiteboard.jpg");
-  background-repeat: no-repeat;
-  background-size: auto auto; }
+  background-repeat: no-repeat; }
 
 .img-trees {
   color: #fff;
@@ -115,7 +118,6 @@ body {
 .about-section {
   width: 100%;
   min-height: 400px;
-  max-width: 1500px;
   display: flex; }
   .about-section h1 {
     font-size: 30pt;
@@ -133,7 +135,6 @@ body {
 .header-section {
   width: 100%;
   min-height: 400px;
-  max-width: 1500px;
   display: flex; }
   .header-section h1 {
     background-color: rgba(255, 255, 255, 0.8);
@@ -144,17 +145,19 @@ body {
 @media only screen and (min-width: 1024px) {
   .col-1 {
     width: 30%;
-    max-width: 200px; } }
+    max-width: 200px; }
+
+  .col-2 {
+    width: 70%;
+    padding: 0 4%;
+    max-width: 1000px; } }
 @media only screen and (max-width: 1024px) {
   .col-1 {
     display: none; }
 
   .col-2 {
-    width: 100%; } }
-.col-2 {
-  width: 70%;
-  padding: 0 4%; }
-
+    width: 100%;
+    padding: 0 4%; } }
 .header-body {
   width: 100%;
   margin-top: 20%;
