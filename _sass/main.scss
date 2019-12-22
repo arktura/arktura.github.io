@@ -175,13 +175,13 @@ body {
 
 .header-section {
   width:100%;
-  min-height:400px;
+  min-height:300px;
   display:flex;
 
   h1 {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.5);
     display:inline;
-    font-size:45pt;
+    font-size:32pt;
     font-weight:normal;
   }
 }
@@ -215,14 +215,16 @@ body {
 
 .header-body {
   width:100%;
-  margin-top:20%;
-  margin-bottom:20px;
+  display: flex;
+  align-items: center;
+  height:100%;
 
 }
 
 .about-body {
   width:100%;
   margin-top:5%;
+  margin-bottom:40px;
 }
 
 
