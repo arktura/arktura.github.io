@@ -42,7 +42,7 @@ a[href^=tel] {
   display: flex;
 
   .logo {
-    background-image: url('/assets/img/logo-small.png');
+    background-image: url('/assets/img/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-top:15px;
@@ -55,21 +55,21 @@ a[href^=tel] {
     font-size: 14pt;
     justify-content: space-between;
     display:inline-flex;
-    max-width: 500px; 
+    max-width: 500px;
     width:100%;
-    
+
 
     nav {
       display:flex;
       margin:55px 0px 25px 0;
       justify-content: center;
-    } 
+    }
   }
 }
 
 .hva-bgcolor {
   background-color:#ED2;
-} 
+}
 
 .kompetanse-bgcolor {
   background-color:#ccc;
@@ -247,5 +247,3 @@ a[href^=tel] {
     line-height:1.5;
   }
 }
-
-
